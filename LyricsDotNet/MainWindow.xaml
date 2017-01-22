@@ -1,0 +1,13 @@
+﻿<Window x:Class="LyricsDotNet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label Name="TrackInfo" Height="25" VerticalAlignment="Top" HorizontalContentAlignment="Center" Margin="0, 5"></Label>
+        <TextBox Name="Lyrics" Margin="0, 35" TextAlignment="Center"></TextBox>
+        <ProgressBar Name="SongProgress" Height="25" VerticalAlignment="Bottom" Margin="0, 5"></ProgressBar>
+    </Grid>
+</Window>
