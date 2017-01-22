@@ -7,7 +7,9 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label Name="TrackInfo" Height="25" VerticalAlignment="Top" HorizontalContentAlignment="Center" Margin="0, 5"></Label>
-        <TextBox Name="Lyrics" Margin="0, 35" TextAlignment="Center"></TextBox>
+        <ScrollViewer Margin="0, 35">
+            <TextBlock Name="Lyrics" TextAlignment="Center" TextWrapping="Wrap"></TextBlock>
+        </ScrollViewer>
         <ProgressBar Name="SongProgress" Height="25" VerticalAlignment="Bottom" Margin="0, 5"></ProgressBar>
     </Grid>
 </Window>
